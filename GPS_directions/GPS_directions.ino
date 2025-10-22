@@ -128,7 +128,6 @@ void loop() {
     // Calculate the difference between bearing to destination and current heading
     float relative_angle = fmod((latest_bearing - heading + 360.0), 360.0);
 
-    updateDisplay(gpsData, heading, latest_distance, latest_bearing);
   }
   
   // Update the display
